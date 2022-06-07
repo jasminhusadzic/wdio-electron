@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Register reviewer",
+    "children" : [ {
+      "name" : "should not be able register with invalid email",
+      "uid" : "c5a000be29b26658",
+      "parentUid" : "e3723e25e86db2acb5479803d449981b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654619447234,
+        "stop" : 1654619448937,
+        "duration" : 1703
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "should not be able register with invalid password",
+      "uid" : "b9d2481a3c26c0bc",
+      "parentUid" : "e3723e25e86db2acb5479803d449981b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654619448938,
+        "stop" : 1654619450104,
+        "duration" : 1166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "should not be able register when passwords does not match",
+      "uid" : "e5ca36450a774dd8",
+      "parentUid" : "e3723e25e86db2acb5479803d449981b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654619450104,
+        "stop" : 1654619451546,
+        "duration" : 1442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "should not be able register without first name",
+      "uid" : "e10dda337fc41383",
+      "parentUid" : "e3723e25e86db2acb5479803d449981b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654619451546,
+        "stop" : 1654619453328,
+        "duration" : 1782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "e3723e25e86db2acb5479803d449981b"
+  } ],
+  "name" : "packages"
+}

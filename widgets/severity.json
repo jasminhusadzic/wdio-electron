@@ -1,0 +1,41 @@
+[ {
+  "uid" : "e10dda337fc41383",
+  "name" : "should not be able register without first name",
+  "time" : {
+    "start" : 1654619451546,
+    "stop" : 1654619453328,
+    "duration" : 1782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a000be29b26658",
+  "name" : "should not be able register with invalid email",
+  "time" : {
+    "start" : 1654619447234,
+    "stop" : 1654619448937,
+    "duration" : 1703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5ca36450a774dd8",
+  "name" : "should not be able register when passwords does not match",
+  "time" : {
+    "start" : 1654619450104,
+    "stop" : 1654619451546,
+    "duration" : 1442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9d2481a3c26c0bc",
+  "name" : "should not be able register with invalid password",
+  "time" : {
+    "start" : 1654619448938,
+    "stop" : 1654619450104,
+    "duration" : 1166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

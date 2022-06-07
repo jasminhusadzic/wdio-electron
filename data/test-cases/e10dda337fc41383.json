@@ -1,0 +1,62 @@
+{
+  "uid" : "e10dda337fc41383",
+  "name" : "should not be able register without first name",
+  "fullName" : "Register reviewer.should not be able register without first name",
+  "historyId" : "40520c7b0bb60e908c09277e10ead7a9",
+  "time" : {
+    "start" : 1654619451546,
+    "stop" : 1654619453328,
+    "duration" : 1782
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register reviewer"
+  }, {
+    "name" : "testClass",
+    "value" : "Register reviewer"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able register without first name"
+  }, {
+    "name" : "package",
+    "value" : "Register reviewer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e10dda337fc41383.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

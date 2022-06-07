@@ -1,0 +1,62 @@
+{
+  "uid" : "e5ca36450a774dd8",
+  "name" : "should not be able register when passwords does not match",
+  "fullName" : "Register reviewer.should not be able register when passwords does not match",
+  "historyId" : "3113d7b192b13a47e26e147f2f15b095",
+  "time" : {
+    "start" : 1654619450104,
+    "stop" : 1654619451546,
+    "duration" : 1442
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register reviewer"
+  }, {
+    "name" : "testClass",
+    "value" : "Register reviewer"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not be able register when passwords does not match"
+  }, {
+    "name" : "package",
+    "value" : "Register reviewer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5ca36450a774dd8.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}
