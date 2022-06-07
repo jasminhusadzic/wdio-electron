@@ -18,6 +18,13 @@ jobs:
         with:
           node-version: 16
 
+      - name: Install Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+          check-latest: true
+
       - name: Install
         run: npm install
 
