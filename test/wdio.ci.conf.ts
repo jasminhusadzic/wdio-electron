@@ -1,8 +1,8 @@
-import { config as ciConfig } from "./wdio.conf";
+import { config as mainConfig } from "./wdio.conf";
 import type { Options } from '@wdio/types'
 
 export const config: Options.Testrunner = {
-    ...ciConfig,
+    ...mainConfig,
     ... {
         services: ['docker'],
         dockerLogs: './logs',
