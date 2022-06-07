@@ -20,5 +20,19 @@ export const config: Options.Testrunner = {
             shmSize: '2g',
             },
         },
+        
+        // Reporter config
+        reporters: [
+            'spec',
+            [
+              'allure',
+              {
+                outputDir: 'allure-results',
+                disableWebdriverStepsReporting: true,
+                disableWebdriverScreenshotsReporting: false,
+                useCucumberStepReporter: true,
+              },
+            ],
+          ],
     }
 }
