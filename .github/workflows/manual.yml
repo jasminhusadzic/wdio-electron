@@ -29,3 +29,36 @@ jobs:
 
       - name: Test
         run: npm run e2e:ci
+
+      - name: Generate Allure report
+        if: always()
+        run: npm run report:generate
+
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: reports
+          path: allure-report
+
+  e2e-deploy-report-gh-pages:
+    if: always()
+    needs: e2e-test
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Download test report
+        uses: actions/download-artifact@v2
+        with:
+          name: reports
+          path: allure-report
+
+      - name: Deploy test report
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: gh-pages
+          folder: allure-report
+          clean: true
