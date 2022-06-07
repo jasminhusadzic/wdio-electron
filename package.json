@@ -10,6 +10,7 @@
         "@wdio/mocha-framework": "^7.20.0",
         "@wdio/selenium-standalone-service": "^7.20.1",
         "@wdio/spec-reporter": "^7.20.0",
+        "allure-commandline": "^2.17.2",
         "cross-env": "^7.0.3",
         "ts-node": "^10.8.1",
         "typescript": "^4.7.3",
