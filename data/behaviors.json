@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "should not be able register with invalid email",
-    "uid" : "c5a000be29b26658",
+    "uid" : "51b015087a17373c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1654619447234,
-      "stop" : 1654619448937,
-      "duration" : 1703
+      "start" : 1654702270706,
+      "stop" : 1654702273285,
+      "duration" : 2579
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,13 +19,13 @@
     "parameters" : [ "chrome-102.0.5005.61" ]
   }, {
     "name" : "should not be able register with invalid password",
-    "uid" : "b9d2481a3c26c0bc",
+    "uid" : "cad530c9a1b4f127",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1654619448938,
-      "stop" : 1654619450104,
-      "duration" : 1166
+      "start" : 1654702273285,
+      "stop" : 1654702274552,
+      "duration" : 1267
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,13 +36,13 @@
     "parameters" : [ "chrome-102.0.5005.61" ]
   }, {
     "name" : "should not be able register when passwords does not match",
-    "uid" : "e5ca36450a774dd8",
+    "uid" : "653bc1416dd956e6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1654619450104,
-      "stop" : 1654619451546,
-      "duration" : 1442
+      "start" : 1654702274552,
+      "stop" : 1654702275735,
+      "duration" : 1183
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,13 +53,13 @@
     "parameters" : [ "chrome-102.0.5005.61" ]
   }, {
     "name" : "should not be able register without first name",
-    "uid" : "e10dda337fc41383",
+    "uid" : "1a01ed90cf8b4c93",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1654619451546,
-      "stop" : 1654619453328,
-      "duration" : 1782
+      "start" : 1654702275736,
+      "stop" : 1654702276762,
+      "duration" : 1026
     },
     "flaky" : false,
     "newFailed" : false,

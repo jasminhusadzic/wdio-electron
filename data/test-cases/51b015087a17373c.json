@@ -1,12 +1,12 @@
 {
-  "uid" : "c5a000be29b26658",
+  "uid" : "51b015087a17373c",
   "name" : "should not be able register with invalid email",
   "fullName" : "Register reviewer.should not be able register with invalid email",
   "historyId" : "c0f0aca5ce88d5636669753dc30aa425",
   "time" : {
-    "start" : 1654619447234,
-    "stop" : 1654619448937,
-    "duration" : 1703
+    "start" : 1654702270706,
+    "stop" : 1654702273285,
+    "duration" : 2579
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -57,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c5a000be29b26658.json",
+  "source" : "51b015087a17373c.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
